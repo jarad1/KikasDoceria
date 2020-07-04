@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+}
+/****lauout
+****/
+
+#principal{
+	background: url(./imagens/fundo1.jpg) repeat;
+
+	width: 920px;
+	padding: 15px;
+	
+	margin: 30px auto;
+}
+#cabecalho{
+	background: #FF4662;
+	font-size: 2em;
+	padding: 15px;
+	text-align: center;
+	margin: 0 auto;
+}
+#logo{
+	padding: 10px;
+}
+#menu{
+	color: #FFD764;
+	padding: 10px;
+}
+.postagem-direita{
+	background: #fff;
+	width: 390px;
+	
+	border: 5px solid #FF82AE;
+	margin: 30px;
+	float: left;
+
+}
+.postagem-esquerda{
+	background: #fff;
+	width: 390px;
+	
+	border: 5px solid #FF82AE;
+	margin: 30px;
+	float: right;
+
+}
+.ident-produto{
+	background:  #FF4662;
+	color: #FFD764;
+	padding: 5px 25px;
+	width: 340px;
+	font-size: 20px;
+}
+.clear{
+	clear: both;
+}
+#rodape{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: url(./imagens/fundo2.jpg) repeat;
+	width: 920px;
+	height: 500px;
+}
+/***
+formatar menu
+**/
+a{
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+a:link, a:visited{
+	color: #fff;
+	padding: 8px 12px;
+}
+
+a:hover{
+	background: white;
+	color: #FF4662;
+}
+p{
+	padding: 5px 15px;
+}
