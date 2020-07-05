@@ -5,11 +5,32 @@
 body{
 	font-family: sans-serif;
 }
+a{
+	text-decoration: none;
+	font-weight: bold;
+	padding:5px;
+	
+}
+a:link{
+	color: white;
+} 
+
+a:visited{
+	color: white;
+	
+}
+
+a:hover{
+	
+	color: #FF4662;
+}
 /****lauout
 ****/
-
+#fundo{
+	background: url(./imagens/fundot.jpg)repeat;
+}
 #principal{
-	background: url(./imagens/fundo1.jpg) repeat;
+	background: url(./imagens/fundo2.jpg) repeat;
 
 	width: 920px;
 	padding: 15px;
@@ -17,9 +38,8 @@ body{
 	margin: 30px auto;
 }
 #cabecalho{
-	background: #FF4662;
+	background: #F7BE81;
 	font-size: 2em;
-	padding: 15px;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -33,8 +53,8 @@ body{
 .postagem-direita{
 	background: #fff;
 	width: 390px;
-	
-	border: 5px solid #FF82AE;
+	height: 540px;
+	border: 5px solid #FFD764;
 	margin: 30px;
 	float: left;
 
@@ -42,15 +62,17 @@ body{
 .postagem-esquerda{
 	background: #fff;
 	width: 390px;
-	
-	border: 5px solid #FF82AE;
+	height: 540px;
+	border: 5px solid #FFD764;
 	margin: 30px;
 	float: right;
 
 }
 .ident-produto{
-	background:  #FF4662;
-	color: #FFD764;
+	margin: 10px 0px;
+	background:  #F7BE81;
+	color: white;
+	font-weight: bold;
 	padding: 5px 25px;
 	width: 340px;
 	font-size: 20px;
@@ -60,29 +82,48 @@ body{
 }
 #rodape{
 	clear: both;
-	text-align: center;
+	color: #FFD764;
+	font-weight: bold;
 	padding: 15px;
-	background: url(./imagens/fundo2.jpg) repeat;
+	background: url(./imagens/fundo1.jpg) repeat;
 	width: 920px;
 	height: 500px;
+	margin: 0 auto;
+}
+#rodape2{
+	background: #2E2E2E;
+	padding: 20px;
+	margin: 10px auto 0px auto;
+}
+.formt-imagem{
+	padding: 5px;
+}
+#p2{
+	font-size: 1em;
+
+}
+#p3{
+	color: black;
+	font-weight: bold;
+}
+#span1{
+	color: #F3F781;
+	padding: 15px;
+	margin: 0 auto;
 }
 /***
 formatar menu
 **/
-a{
-	text-decoration: none;
-	font-weight: bold;
-	
-}
-a:link, a:visited{
-	color: #fff;
-	padding: 8px 12px;
-}
 
-a:hover{
-	background: white;
-	color: #FF4662;
-}
 p{
 	padding: 5px 15px;
+	font-size: 1.5em;
+}
+h1{
+	padding: 20px;
+	font-size:3em; 
+}
+h2{
+	padding: 15px;
+	font-size: 2em;
 }
