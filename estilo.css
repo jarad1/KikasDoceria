@@ -12,11 +12,11 @@ a{
 	
 }
 a:link{
-	color: white;
+	color: #FF9BA5;
 } 
 
 a:visited{
-	color: white;
+	color: #FF9BA5;
 	
 }
 
@@ -27,10 +27,48 @@ a:hover{
 /****lauout
 ****/
 #fundo{
-	background: url(./imagens/fundot.jpg)repeat;
+	background: url(./imagens/fundix.jpg)repeat;
 }
 #principal{
-	background: url(./imagens/fundo2.jpg) repeat;
+	
+	 background:#FF9BA3
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+);
+      
+
+	width: 920px;
+	padding: 15px;
+	
+	margin: 30px auto;
+}
+#principal2{
+	
+	 background:#FF9BA3
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+);
+      
+	width: 920px;
+	padding: 15px;
+	
+	margin: 30px auto;
+}
+#principal3{
+	
+
+	
+	 background:#FF9BA3
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+);
+      
 
 	width: 920px;
 	padding: 15px;
@@ -38,22 +76,36 @@ a:hover{
 	margin: 30px auto;
 }
 #cabecalho{
-	background: #F7BE81;
+	background: white
+	      linear-gradient(
+          rgba(255,215,0,0.5), 
+          rgba(255,215,0,0.2)
+) ;
+
+      ;
 	font-size: 2em;
 	text-align: center;
+
 	margin: 0 auto;
 }
 #logo{
-	padding: 10px;
+	margin: 0px;
+	padding: 0px;
+}
+#feed{
+	width: 420px;
+	border: 5px solid  #FFD764;
+	text-align: left;
+	float: left;
 }
 #menu{
-	color: #FFD764;
+	color: #FD4E79;
 	padding: 10px;
 }
 .postagem-direita{
 	background: #fff;
 	width: 390px;
-	height: 540px;
+	height: 590px;
 	border: 5px solid #FFD764;
 	margin: 30px;
 	float: left;
@@ -62,7 +114,7 @@ a:hover{
 .postagem-esquerda{
 	background: #fff;
 	width: 390px;
-	height: 540px;
+	height: 590px;
 	border: 5px solid #FFD764;
 	margin: 30px;
 	float: right;
@@ -82,16 +134,22 @@ a:hover{
 }
 #rodape{
 	clear: both;
-	color: #FFD764;
+	color: white;
 	font-weight: bold;
+	text-align: left;
 	padding: 15px;
-	background: url(./imagens/fundo1.jpg) repeat;
+	background: 
+	linear-gradient(
+          rgba(255,182,193,1), 
+          rgba(255,192,203,0.9)
+);
 	width: 920px;
 	height: 500px;
 	margin: 0 auto;
 }
 #rodape2{
-	background: #2E2E2E;
+	background: white;
+	text-align: left;
 	padding: 20px;
 	margin: 10px auto 0px auto;
 }
@@ -106,11 +164,29 @@ a:hover{
 	color: black;
 	font-weight: bold;
 }
-#span1{
-	color: #F3F781;
-	padding: 15px;
-	margin: 0 auto;
+.p4
+{
+	font-family: arial;
+	font-style: italic;
+	color: white;
+	font-size: 20px;
+	padding: 5px;
 }
+.h2{
+	padding: 5px;
+	font-family: arial;
+	font-style: italic;
+	text-align: center;
+	color: white;
+	margin: 20px;
+}
+
+hr {
+	border: 1px dashed #FFD764;
+	margin: 25px 0px 0px 0px;
+	width: 770px;
+	}
+
 /***
 formatar menu
 **/
@@ -126,4 +202,7 @@ h1{
 h2{
 	padding: 15px;
 	font-size: 2em;
+}
+img{
+	margin: 25px;
 }
