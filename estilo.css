@@ -107,7 +107,7 @@ a:hover{
 	width: 390px;
 	height: 590px;
 	border: 5px solid #FFD764;
-	margin: 30px;
+	margin: 0px 14px 30px 30px;
 	float: left;
 
 }
@@ -116,9 +116,13 @@ a:hover{
 	width: 390px;
 	height: 590px;
 	border: 5px solid #FFD764;
-	margin: 30px;
+	margin: 0px 30px 30px 14px;
 	float: right;
 
+}
+.borda{
+	border: 1px dashed #FFD764;
+	margin: 15px;
 }
 .ident-produto{
 	margin: 10px 0px;
@@ -128,6 +132,15 @@ a:hover{
 	padding: 5px 25px;
 	width: 340px;
 	font-size: 20px;
+}
+.ident-produto2{
+	margin: 0px;
+	background:  #F7BE81;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 10px 0px;
+	margin: 10px 0px;
 }
 .clear{
 	clear: both;
@@ -171,6 +184,10 @@ a:hover{
 	color: white;
 	font-size: 20px;
 	padding: 5px;
+	margin: 15px 0px 0px 0px;
+}
+#p5{
+	color: #fff;
 }
 .h2{
 	padding: 5px;
@@ -180,6 +197,58 @@ a:hover{
 	color: white;
 	margin: 20px;
 }
+.h2-1{
+	
+	font-family: arial;
+	font-style: italic;
+	text-align: center;
+	color: white;
+	background: #F7BE81;
+
+	
+}
+.h1{
+	padding: 5px;
+	font-family: arial;
+	font-style: italic;
+	text-align: center;
+	color: white;
+	margin: 25px;
+}
+.h2text{
+	
+	font-family: arial;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	margin: 20px 0px 0px 0px;
+}
+.h2-cont{
+	
+	font-family: arial;
+	text-align: left;
+	color: white;
+	background: #F7BE81;
+	margin: 10px 0px 0px 0px;
+}
+#conteudo{
+	float: left;
+	width: 400px;
+	height: 540px;
+	background: #fff;
+	border: 5px solid #FFD764;
+	margin: 20px;
+}
+#conteudo2{
+	float: right;
+	width: 400px;
+	background: #fff;
+	border: 5px solid #FFD764;
+	margin: 20px;
+}
+
+
 
 hr {
 	border: 1px dashed #FFD764;
@@ -205,4 +274,26 @@ h2{
 }
 img{
 	margin: 25px;
+}
+td{
+	color: #fff;
+	margin: 5px;
+}
+select{
+	margin: auto 20px;
+	font-size: 1.3em;
+}
+table{
+	border: 2px solid #FFD764;
+	background: white;
+	margin: 0px;
+}
+input{
+	margin: 5px 5px 10px 5px;
+}
+iframe{
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	clear: both;
+
 }
